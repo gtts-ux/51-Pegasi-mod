@@ -1,0 +1,14 @@
+PUBLISH test
+
+1. Review solar-mod.json, descriptions, notes and source links.
+2. Validate from this folder: sol-sim --check-mod solar-mod.json
+3. Try locally: sol-sim -m "./solar-mod.json"
+   Open /mod test in the app and check its orbits and moons.
+4. Create your own public GitHub repository and upload this folder
+   CONTENTS at its root. solar-mod.json must be at the repository root.
+   Choose a license if you want to specify reuse permissions.
+5. Share: sol-sim -m "YOUR-NAME/YOUR-REPOSITORY"
+
+Nothing is uploaded automatically. Reopen this project in /builder
+to edit it; exported folders are snapshots and are never overwritten.
+Keep the same id and increase version before releasing an update.

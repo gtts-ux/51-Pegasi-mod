@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "package": {
+    "format": 2,
+    "id": "test",
+    "name": "test",
+    "description": "A user-created system catalogue.",
+    "version": "1.0.0",
+    "app_min": "1.10.0",
+    "fictional": true,
+    "sources": [],
+    "bodies": [
+      {
+        "name": "51 Pegasi",
+        "kind": "Star",
+        "parent": null,
+        "color": 3,
+        "mass": 2.16743e+30,
+        "radius": 827883.0,
+        "orbit": 0,
+        "period": 0,
+        "rotation": 21.9,
+        "temperature": "5768",
+        "composition": "~73% Hydrogen, ~25% Helium, ~2% heavier elements",
+        "atmosphere": "H2",
+        "features": "Main sequence yellow dwarf hosting exoplanet 51 Pegasi b (Hot Jupiter). Spectral class G2V+.",
+        "estimated_mass": true,
+        "estimated_radius": true,
+        "eccentricity": 0.0,
+        "inclination": 0.0,
+        "node": 0.0,
+        "periapsis": 0.0,
+        "phase": 0
+      },
+      {
+        "name": "51 Pegasi b",
+        "kind": "Planet",
+        "parent": "51 Pegasi",
+        "color": 5,
+        "mass": 8.89e+26,
+        "radius": 136000.0,
+        "orbit": 7.8836,
+        "period": 4.23,
+        "rotation": 4.23,
+        "temperature": "1320",
+        "composition": "Hydrogen and Helium gas, rocky core",
+        "atmosphere": "Hydrogen, Helium, water vapor, carbon monoxide, sodium",
+        "features": "First hot Jupiter discovered (1995). Tidally locked.",
+        "estimated_mass": true,
+        "estimated_radius": true,
+        "eccentricity": 0.013,
+        "inclination": 80.0,
+        "node": 243.0,
+        "periapsis": 58.0,
+        "phase": 0.0
+      }
+    ]
+  },
+  "notes": ""
+}
